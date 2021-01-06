@@ -8,14 +8,28 @@
 
 import UIKit
 import CoreData
+import Firebase
+import GoogleSignIn
+import FBSDKCoreKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    
+    
+    var window: UIWindow?
+    var navigatorViewController:UINavigationController!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Override point for customization after application 
+       
+       
+        //if(ApiClient.usuario == 0){
+            FirebaseApp.configure()
+            GIDSignIn.sharedInstance()?.clientID = FirebaseApp.app()?.options.clientID
+            //GIDSignIn.sharedInstance()?.clientID = FirebaseApp.app()?.options.clientID
+        //}
+       
+        
         return true
     }
 
@@ -33,6 +47,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey: Any] = [:] ) -> Bool {
+        return (GIDSignIn.sharedInstance()?.handle(url))!
+    }
+    
     // MARK: - Core Data stack
 
     lazy var persistentContainer: NSPersistentContainer = {

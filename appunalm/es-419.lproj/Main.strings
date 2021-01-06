@@ -1,0 +1,378 @@
+
+/* Class = "UILabel"; text = "Facultad de Ingieneria"; ObjectID = "1Fu-lg-38m"; */
+"1Fu-lg-38m.text" = "Facultad de Ingieneria";
+
+/* Class = "UILabel"; text = "Normal"; ObjectID = "1Or-hB-FgH"; */
+"1Or-hB-FgH.text" = "Normal";
+
+/* Class = "UILabel"; text = "Pre requisitos: Matematica I"; ObjectID = "20O-eP-uW2"; */
+"20O-eP-uW2.text" = "Pre requisitos: Matematica I";
+
+/* Class = "UILabel"; text = "SI"; ObjectID = "2DL-Ov-CYx"; */
+"2DL-Ov-CYx.text" = "SI";
+
+/* Class = "UILabel"; text = "30/60"; ObjectID = "2Iy-gR-eI3"; */
+"2Iy-gR-eI3.text" = "30/60";
+
+/* Class = "UILabel"; text = "Carrera: Agronomía 2018-2"; ObjectID = "2q4-xf-qUE"; */
+"2q4-xf-qUE.text" = "Carrera: Agronomía 2018-2";
+
+/* Class = "UILabel"; text = "Creditos"; ObjectID = "4B6-AP-YIi"; */
+"4B6-AP-YIi.text" = "Creditos";
+
+/* Class = "UILabel"; text = "SI"; ObjectID = "51P-8p-X8a"; */
+"51P-8p-X8a.text" = "SI";
+
+/* Class = "UILabel"; text = "Promedio: 14.18"; ObjectID = "6XA-xg-pNy"; */
+"6XA-xg-pNy.text" = "Promedio: 14.18";
+
+/* Class = "UILabel"; text = "Examenes Programados"; ObjectID = "6ZQ-FP-0Hy"; */
+"6ZQ-FP-0Hy.text" = "Examenes Programados";
+
+/* Class = "UILabel"; text = "DNI"; ObjectID = "6an-wH-eld"; */
+"6an-wH-eld.text" = "DNI";
+
+/* Class = "UILabel"; text = "Información Financiera"; ObjectID = "6py-fr-gca"; */
+"6py-fr-gca.text" = "Información Financiera";
+
+/* Class = "UILabel"; text = "Codigo de estudiante"; ObjectID = "7Gl-fL-Amn"; */
+"7Gl-fL-Amn.text" = "Codigo de estudiante";
+
+/* Class = "UILabel"; text = "Electivos"; ObjectID = "7ud-re-kGp"; */
+"7ud-re-kGp.text" = "Electivos";
+
+/* Class = "UILabel"; text = "Estudios Generales"; ObjectID = "8BO-JW-y1h"; */
+"8BO-JW-y1h.text" = "Estudios Generales";
+
+/* Class = "UILabel"; text = "Biologia General"; ObjectID = "8YH-bV-cYP"; */
+"8YH-bV-cYP.text" = "Biologia General";
+
+/* Class = "UILabel"; text = "Creditos: 6"; ObjectID = "9H1-1s-kbx"; */
+"9H1-1s-kbx.text" = "Creditos: 6";
+
+/* Class = "UILabel"; text = "Creditos Aprobados"; ObjectID = "9To-Pb-efS"; */
+"9To-Pb-efS.text" = "Creditos Aprobados";
+
+/* Class = "UILabel"; text = "Cursos No registrados / No aprobados"; ObjectID = "9gR-1b-UXc"; */
+"9gR-1b-UXc.text" = "Cursos No registrados / No aprobados";
+
+/* Class = "UILabel"; text = "Programa academico"; ObjectID = "9y2-kb-Fge"; */
+"9y2-kb-Fge.text" = "Programa academico";
+
+/* Class = "UILabel"; text = "Avance Curricular"; ObjectID = "A0V-7x-pGP"; */
+"A0V-7x-pGP.text" = "Avance Curricular";
+
+/* Class = "UILabel"; text = "Estudiante"; ObjectID = "A3I-It-hKE"; */
+"A3I-It-hKE.text" = "Estudiante";
+
+/* Class = "UILabel"; text = "Facebook"; ObjectID = "Amk-ui-NCl"; */
+"Amk-ui-NCl.text" = "Facebook";
+
+/* Class = "UILabel"; text = "Promedio: 14.18"; ObjectID = "ApK-yZ-6HQ"; */
+"ApK-yZ-6HQ.text" = "Promedio: 14.18";
+
+/* Class = "UILabel"; text = "Creditos: 6"; ObjectID = "BCp-XP-4n3"; */
+"BCp-XP-4n3.text" = "Creditos: 6";
+
+/* Class = "UILabel"; text = "Fiorela Perez Villacorta"; ObjectID = "BEX-xV-T5q"; */
+"BEX-xV-T5q.text" = "Fiorela Perez Villacorta";
+
+/* Class = "UILabel"; text = "Plan de Estudios"; ObjectID = "BLk-di-AOW"; */
+"BLk-di-AOW.text" = "Plan de Estudios";
+
+/* Class = "UILabel"; text = "Sociologia General"; ObjectID = "CHB-O6-RQ1"; */
+"CHB-O6-RQ1.text" = "Sociologia General";
+
+/* Class = "UILabel"; text = "Especialidad"; ObjectID = "D0N-8r-IsY"; */
+"D0N-8r-IsY.text" = "Especialidad";
+
+/* Class = "UILabel"; text = "89"; ObjectID = "Dh5-7O-vqB"; */
+"Dh5-7O-vqB.text" = "89";
+
+/* Class = "UILabel"; text = "Especialidad"; ObjectID = "Dsm-k3-tYt"; */
+"Dsm-k3-tYt.text" = "Especialidad";
+
+/* Class = "UILabel"; text = "Cursos Historicos"; ObjectID = "DuG-NL-gCm"; */
+"DuG-NL-gCm.text" = "Cursos Historicos";
+
+/* Class = "UILabel"; text = "SI"; ObjectID = "EYf-x2-yeC"; */
+"EYf-x2-yeC.text" = "SI";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "F7c-BH-vAU"; */
+"F7c-BH-vAU.text" = "3";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "Fae-wd-Qbm"; */
+"Fae-wd-Qbm.text" = "3";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "Fdr-wQ-3no"; */
+"Fdr-wQ-3no.title" = "Item";
+
+/* Class = "UILabel"; text = "Cursos Matriculados"; ObjectID = "G05-cy-7Eb"; */
+"G05-cy-7Eb.text" = "Cursos Matriculados";
+
+/* Class = "UILabel"; text = "Matematica I"; ObjectID = "HAf-e8-M5R"; */
+"HAf-e8-M5R.text" = "Matematica I";
+
+/* Class = "UILabel"; text = "Ciclo: 12"; ObjectID = "Hjt-0t-GLa"; */
+"Hjt-0t-GLa.text" = "Ciclo: 12";
+
+/* Class = "UILabel"; text = "Situación academico"; ObjectID = "IIw-67-Jxa"; */
+"IIw-67-Jxa.text" = "Situación academico";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "IdT-zA-cCp"; */
+"IdT-zA-cCp.text" = "-";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "JJk-1G-EPu"; */
+"JJk-1G-EPu.text" = "3";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "JMm-oa-veQ"; */
+"JMm-oa-veQ.text" = "-";
+
+/* Class = "UILabel"; text = "Notificaciones"; ObjectID = "Jax-Jk-UzE"; */
+"Jax-Jk-UzE.text" = "Notificaciones";
+
+/* Class = "UILabel"; text = "Fecha: 2018 - 1"; ObjectID = "JfD-Tz-5qg"; */
+"JfD-Tz-5qg.text" = "Fecha: 2018 - 1";
+
+/* Class = "UILabel"; text = "74"; ObjectID = "Jp0-0H-f73"; */
+"Jp0-0H-f73.text" = "74";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "KuU-7K-sBJ"; */
+"KuU-7K-sBJ.text" = "-";
+
+/* Class = "UILabel"; text = "Iniciar session con:"; ObjectID = "L43-7t-LQa"; */
+"L43-7t-LQa.text" = "Iniciar session con:";
+
+/* Class = "UILabel"; text = "DNI"; ObjectID = "LXb-ga-Imk"; */
+"LXb-ga-Imk.text" = "DNI";
+
+/* Class = "UILabel"; text = "Ing. Agronoma"; ObjectID = "LbX-v5-GmH"; */
+"LbX-v5-GmH.text" = "Ing. Agronoma";
+
+/* Class = "UINavigationItem"; title = "Historial Academico"; ObjectID = "NHr-BX-w1t"; */
+"NHr-BX-w1t.title" = "Historial Academico";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "NPl-Ql-XLy"; */
+"NPl-Ql-XLy.text" = "-";
+
+/* Class = "UILabel"; text = "Estadisticas Generales"; ObjectID = "OgS-HT-D8C"; */
+"OgS-HT-D8C.text" = "Estadisticas Generales";
+
+/* Class = "UILabel"; text = "50/50"; ObjectID = "Pdd-G9-8at"; */
+"Pdd-G9-8at.text" = "50/50";
+
+/* Class = "UINavigationItem"; title = "Avance Curricular"; ObjectID = "RUg-hH-V8A"; */
+"RUg-hH-V8A.title" = "Avance Curricular";
+
+/* Class = "UILabel"; text = "Correo del alumno"; ObjectID = "RYe-NS-bwe"; */
+"RYe-NS-bwe.text" = "Correo del alumno";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "Rkr-0z-0ug"; */
+"Rkr-0z-0ug.text" = "-";
+
+/* Class = "UILabel"; text = "43"; ObjectID = "RnF-nY-9DW"; */
+"RnF-nY-9DW.text" = "43";
+
+/* Class = "UILabel"; text = "Estado"; ObjectID = "TKO-PS-FvZ"; */
+"TKO-PS-FvZ.text" = "Estado";
+
+/* Class = "UILabel"; text = "Comunicaciones OERA"; ObjectID = "Tt1-i6-5ts"; */
+"Tt1-i6-5ts.text" = "Comunicaciones OERA";
+
+/* Class = "UILabel"; text = "Fisica General"; ObjectID = "Twi-8j-Cxt"; */
+"Twi-8j-Cxt.text" = "Fisica General";
+
+/* Class = "UILabel"; text = "14.3"; ObjectID = "Txz-J3-1mS"; */
+"Txz-J3-1mS.text" = "14.3";
+
+/* Class = "UILabel"; text = "Matematica II"; ObjectID = "UDi-5I-MjF"; */
+"UDi-5I-MjF.text" = "Matematica II";
+
+/* Class = "UILabel"; text = "Google"; ObjectID = "Unf-bW-2zp"; */
+"Unf-bW-2zp.text" = "Google";
+
+/* Class = "UILabel"; text = "Cursos registrados / Aprobados"; ObjectID = "VPl-Wg-UnU"; */
+"VPl-Wg-UnU.text" = "Cursos registrados / Aprobados";
+
+/* Class = "UILabel"; text = "SI"; ObjectID = "Vg7-dy-Vha"; */
+"Vg7-dy-Vha.text" = "SI";
+
+/* Class = "UINavigationItem"; title = "Informacion Academica"; ObjectID = "ViP-Zf-0h7"; */
+"ViP-Zf-0h7.title" = "Informacion Academica";
+
+/* Class = "UILabel"; text = "Historial Academico"; ObjectID = "W9g-6K-GqN"; */
+"W9g-6K-GqN.text" = "Historial Academico";
+
+/* Class = "UILabel"; text = "Promedio Ponderado"; ObjectID = "WYy-1L-B0q"; */
+"WYy-1L-B0q.text" = "Promedio Ponderado";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "X10-q9-5XW"; */
+"X10-q9-5XW.text" = "-";
+
+/* Class = "UILabel"; text = "Tipo de curriculum"; ObjectID = "XRx-Jl-kW7"; */
+"XRx-Jl-kW7.text" = "Tipo de curriculum";
+
+/* Class = "UILabel"; text = "Calendario Academico"; ObjectID = "Xmu-7R-cvd"; */
+"Xmu-7R-cvd.text" = "Calendario Academico";
+
+/* Class = "UILabel"; text = "Sit. Academico"; ObjectID = "Z8f-VV-rk6"; */
+"Z8f-VV-rk6.text" = "Sit. Academico";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "ZSQ-eN-Rig"; */
+"ZSQ-eN-Rig.text" = "3";
+
+/* Class = "UILabel"; text = "SI"; ObjectID = "ZfW-QJ-F3L"; */
+"ZfW-QJ-F3L.text" = "SI";
+
+/* Class = "UILabel"; text = "Ajustes"; ObjectID = "aRU-nR-k2v"; */
+"aRU-nR-k2v.text" = "Ajustes";
+
+/* Class = "UILabel"; text = "Estado: Aprobado"; ObjectID = "b9c-Wr-SzZ"; */
+"b9c-Wr-SzZ.text" = "Estado: Aprobado";
+
+/* Class = "UILabel"; text = "MAT2"; ObjectID = "bUm-MX-Ixm"; */
+"bUm-MX-Ixm.text" = "MAT2";
+
+/* Class = "UILabel"; text = "Codigo Estudiante"; ObjectID = "bps-Bt-4eG"; */
+"bps-Bt-4eG.text" = "Codigo Estudiante";
+
+/* Class = "UILabel"; text = "Lista de cursos"; ObjectID = "cJp-Wt-LUL"; */
+"cJp-Wt-LUL.text" = "Lista de cursos";
+
+/* Class = "UILabel"; text = "20/50"; ObjectID = "cXQ-QX-3sJ"; */
+"cXQ-QX-3sJ.text" = "20/50";
+
+/* Class = "UILabel"; text = "Cursos"; ObjectID = "cxu-TT-uZF"; */
+"cxu-TT-uZF.text" = "Cursos";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "ddf-qa-1fi"; */
+"ddf-qa-1fi.title" = "Item";
+
+/* Class = "UILabel"; text = "Aula: B205"; ObjectID = "eBr-mf-cM2"; */
+"eBr-mf-cM2.text" = "Aula: B205";
+
+/* Class = "UILabel"; text = "950"; ObjectID = "evc-x0-VU4"; */
+"evc-x0-VU4.text" = "950";
+
+/* Class = "UILabel"; text = "Admision"; ObjectID = "fNt-RA-t3s"; */
+"fNt-RA-t3s.text" = "Admision";
+
+/* Class = "UILabel"; text = "Ciclo: 12º"; ObjectID = "fch-7g-Gxd"; */
+"fch-7g-Gxd.text" = "Ciclo: 12º";
+
+/* Class = "UILabel"; text = "Estado: Habilitado"; ObjectID = "gdI-m7-fx9"; */
+"gdI-m7-fx9.text" = "Estado: Habilitado";
+
+/* Class = "UILabel"; text = "Mas info"; ObjectID = "ghm-T4-1zF"; */
+"ghm-T4-1zF.text" = "Mas info";
+
+/* Class = "UILabel"; text = "Obligatorios Especialidad"; ObjectID = "gqt-zh-uIC"; */
+"gqt-zh-uIC.text" = "Obligatorios Especialidad";
+
+/* Class = "UILabel"; text = "Perfil"; ObjectID = "hPl-hN-mHZ"; */
+"hPl-hN-mHZ.text" = "Perfil";
+
+/* Class = "UILabel"; text = "50/100"; ObjectID = "hYy-lh-nTh"; */
+"hYy-lh-nTh.text" = "50/100";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "hkt-1m-v3T"; */
+"hkt-1m-v3T.text" = "-";
+
+/* Class = "UILabel"; text = "N0725357"; ObjectID = "hly-ce-3h1"; */
+"hly-ce-3h1.text" = "N0725357";
+
+/* Class = "UILabel"; text = "CRE"; ObjectID = "i9A-q2-WqR"; */
+"i9A-q2-WqR.text" = "CRE";
+
+/* Class = "UILabel"; text = "Obligatorios Facultad"; ObjectID = "jSQ-ax-2eZ"; */
+"jSQ-ax-2eZ.text" = "Obligatorios Facultad";
+
+/* Class = "UILabel"; text = "Promedio Ponderado: 15"; ObjectID = "jqy-kY-8Dp"; */
+"jqy-kY-8Dp.text" = "Promedio Ponderado: 15";
+
+/* Class = "UILabel"; text = "40954884"; ObjectID = "kzi-eM-GSE"; */
+"kzi-eM-GSE.text" = "40954884";
+
+/* Class = "UILabel"; text = "SI"; ObjectID = "lGZ-rB-EmW"; */
+"lGZ-rB-EmW.text" = "SI";
+
+/* Class = "UILabel"; text = "Codigo de curso: CC1020 2-4-2"; ObjectID = "lXf-qr-jIh"; */
+"lXf-qr-jIh.text" = "Codigo de curso: CC1020 2-4-2";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "lbl-YS-khA"; */
+"lbl-YS-khA.text" = "-";
+
+/* Class = "UILabel"; text = "Codigo de curso: CC1020 2-4-2"; ObjectID = "m3G-dI-6ui"; */
+"m3G-dI-6ui.text" = "Codigo de curso: CC1020 2-4-2";
+
+/* Class = "UILabel"; text = "Estadisticas Generales"; ObjectID = "mGx-dx-9Hc"; */
+"mGx-dx-9Hc.text" = "Estadisticas Generales";
+
+/* Class = "UILabel"; text = "Puntaje Acumulado"; ObjectID = "nJQ-FA-AbK"; */
+"nJQ-FA-AbK.text" = "Puntaje Acumulado";
+
+/* Class = "UILabel"; text = "Información Academica"; ObjectID = "o6v-1N-4zG"; */
+"o6v-1N-4zG.text" = "Información Academica";
+
+/* Class = "UILabel"; text = "Creditos Cursados"; ObjectID = "pa1-b3-1Uz"; */
+"pa1-b3-1Uz.text" = "Creditos Cursados";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "qXf-II-Adj"; */
+"qXf-II-Adj.text" = "3";
+
+/* Class = "UILabel"; text = "200"; ObjectID = "qa4-A4-rQO"; */
+"qa4-A4-rQO.text" = "200";
+
+/* Class = "UILabel"; text = "Ecologia General II"; ObjectID = "rUc-6q-282"; */
+"rUc-6q-282.text" = "Ecologia General II";
+
+/* Class = "UILabel"; text = "Carrera : Administración"; ObjectID = "rl3-cN-kqy"; */
+"rl3-cN-kqy.text" = "Carrera : Administración";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "s5R-Ay-NwX"; */
+"s5R-Ay-NwX.text" = "3";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "sIC-vE-67e"; */
+"sIC-vE-67e.text" = "-";
+
+/* Class = "UILabel"; text = "Configuración"; ObjectID = "sO9-nC-cdb"; */
+"sO9-nC-cdb.text" = "Configuración";
+
+/* Class = "UILabel"; text = "Tramites OERA"; ObjectID = "slQ-Qr-vkW"; */
+"slQ-Qr-vkW.text" = "Tramites OERA";
+
+/* Class = "UILabel"; text = "Mis Horarios"; ObjectID = "tA9-9v-qEV"; */
+"tA9-9v-qEV.text" = "Mis Horarios";
+
+/* Class = "UILabel"; text = "Ciclo: 12º"; ObjectID = "urs-qt-gcy"; */
+"urs-qt-gcy.text" = "Ciclo: 12º";
+
+/* Class = "UINavigationItem"; title = "Avance Curricular"; ObjectID = "uvP-eN-zfk"; */
+"uvP-eN-zfk.title" = "Avance Curricular";
+
+/* Class = "UILabel"; text = "MA"; ObjectID = "vK5-fQ-zKr"; */
+"vK5-fQ-zKr.text" = "MA";
+
+/* Class = "UILabel"; text = "Llevados"; ObjectID = "wvm-X9-mzG"; */
+"wvm-X9-mzG.text" = "Llevados";
+
+/* Class = "UILabel"; text = "Nombres y Apellidos del estudiante"; ObjectID = "xFS-eZ-xhR"; */
+"xFS-eZ-xhR.text" = "Nombres y Apellidos del estudiante";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "xLZ-j8-ggx"; */
+"xLZ-j8-ggx.text" = "Total";
+
+/* Class = "UILabel"; text = "Información preliminar"; ObjectID = "xZQ-oA-ecV"; */
+"xZQ-oA-ecV.text" = "Información preliminar";
+
+/* Class = "UILabel"; text = "Cerrar Sesion"; ObjectID = "ygk-WH-IFg"; */
+"ygk-WH-IFg.text" = "Cerrar Sesion";
+
+/* Class = "UINavigationItem"; title = "Historial Academico"; ObjectID = "ypX-tP-AZk"; */
+"ypX-tP-AZk.title" = "Historial Academico";
+
+/* Class = "UILabel"; text = "Malla Curricular"; ObjectID = "yvg-3P-nqV"; */
+"yvg-3P-nqV.text" = "Malla Curricular";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "zFb-vg-34J"; */
+"zFb-vg-34J.title" = "Item";

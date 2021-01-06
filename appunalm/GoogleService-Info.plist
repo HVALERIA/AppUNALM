@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>762678016257-rnqo9onjfqpf98v0vifpes6tsr3q3jj7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.762678016257-rnqo9onjfqpf98v0vifpes6tsr3q3jj7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCQmlmHHPFkn5WHbsjYhgjsZsgrGT_Xr3k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>762678016257</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.hache.unalm</string>
+	<key>PROJECT_ID</key>
+	<string>unalm-21f62</string>
+	<key>STORAGE_BUCKET</key>
+	<string>unalm-21f62.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:762678016257:ios:a7f2d1c1fd86b6898b4300</string>
+	<key>DATABASE_URL</key>
+	<string>https://unalm-21f62.firebaseio.com</string>
+</dict>
+</plist>
