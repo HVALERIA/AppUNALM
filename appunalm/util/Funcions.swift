@@ -108,4 +108,17 @@ final class Funcions {
         return retorno
     }
     
+    public static func NumeroCeroDecimal (valor: Double) -> String {
+        var retorno:String = "0"
+        let distanceFloat: Float = Float(valor)
+        retorno = String(format: "%.0f", distanceFloat)
+        return retorno
+    }
+    
+    public static func Separator(cadena: String, valor: String) -> Array<Any> {
+        let lista = cadena.components(separatedBy: valor)
+        return lista
+        
+    }
+    
 }

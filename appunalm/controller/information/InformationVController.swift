@@ -10,6 +10,7 @@ import UIKit
 
 class InformationVController: UIViewController {
 
+    
     @IBOutlet weak var History_vw: UIView!
     @IBOutlet weak var Advanced_vw: UIView!
     @IBOutlet weak var Courses_vw: UIView!
@@ -34,6 +35,8 @@ class InformationVController: UIViewController {
         Mesh_vw.layer.cornerRadius = 8
         Calendar_vw.layer.cornerRadius = 8
         Finance_vw.layer.cornerRadius = 8
+        
+        self.Carrera_lbl.text = "Facultad: \(UserDefaults.standard.string(forKey: Constants.carrera)!)"
         
         let tgHistory = UITapGestureRecognizer(target: self, action: #selector(handleTapHistory(sender:)))
         let tgAdvanced = UITapGestureRecognizer(target: self, action: #selector(handleTapAdvanced(sender:)))

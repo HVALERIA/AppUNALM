@@ -46,7 +46,8 @@ class ProfileVController: UIViewController {
         let selectedIndicatorIndex = 16
         let indicatorType = presentingIndicatorTypes[selectedIndicatorIndex]
        
-        //Cargando 
+        //Cargando
+        self.loadingOpen()
         inicialize()
     }
     
@@ -73,6 +74,8 @@ class ProfileVController: UIViewController {
             } else{
                 ShowAlert.ShowAlertError(title: " " ,message: Constants.msg_internet)
             }
+            
+            self.loagingClose()
             
         }catch is NSException {
             ShowAlert.ShowAlertError(title: Constants.title_error ,message: Constants.msg_error)
@@ -147,6 +150,17 @@ class ProfileVController: UIViewController {
           self.txtPrograma.text = nil
           self.txtSituacion.text = nil
       }
+    
+    func loadingOpen(){
+        NVActivityIndicatorPresenter.sharedInstance.startAnimating(activityData)
+    }
+    
+    func loagingClose (){
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3 ) {
+            //self.stopAnimating(nil)
+            NVActivityIndicatorPresenter.sharedInstance.stopAnimating()
+        }
+    }
      
 }
 extension ProfileVController : UIViewControllerTransitioningDelegate {

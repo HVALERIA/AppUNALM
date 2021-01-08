@@ -38,8 +38,8 @@ class CourseCell {
            self.nombre = nombre
            self.codigo = "Codigo de curso: \(codigo)"
            self.credito = "Creditos: \(credito)"
-           self.estado = "Estado: \(estado)"
-           self.promedio = "Promedio ponderado: \(promedio)"
+           self.estado = "\(estado)"
+           self.promedio = "\(promedio)"
     }
 }
 

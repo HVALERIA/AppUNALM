@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NVActivityIndicatorView
 
 class HistoryVController: UIViewController, UITableViewDelegate, UITableViewDataSource {
    
@@ -18,15 +19,24 @@ class HistoryVController: UIViewController, UITableViewDelegate, UITableViewData
     @IBOutlet weak var tableView: UITableView!
     
     let network = InformationNetwork()
+    let activityData = ActivityData()
     var itemsCell: [GraduateCell] = []
     
-    //let table = GraduateTVController()
+    private let presentingIndicatorTypes = {
+           return NVActivityIndicatorType.allCases.filter { $0 != .blank }
+       }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.delegate = self
         self.tableView.dataSource = self
+        
+        let size = CGSize(width: 30, height: 30)
+        let selectedIndicatorIndex = 16
+        let indicatorType = presentingIndicatorTypes[selectedIndicatorIndex]
+       
 
+        self.loadingOpen()
         Inicialize()
 
         // Do any additional setup after loading the view.
@@ -55,6 +65,8 @@ class HistoryVController: UIViewController, UITableViewDelegate, UITableViewData
             } else {
                 ShowAlert.ShowAlertError(title: " " ,message: Constants.msg_internet)
             }
+            
+            self.loagingClose()
         
         } catch is NSException {
             ShowAlert.ShowAlertError(title: Constants.title_error ,message: Constants.msg_error)
@@ -117,5 +129,15 @@ class HistoryVController: UIViewController, UITableViewDelegate, UITableViewData
         
     }
     
+    func loadingOpen(){
+        NVActivityIndicatorPresenter.sharedInstance.startAnimating(activityData)
+    }
+    
+    func loagingClose (){
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3 ) {
+            //self.stopAnimating(nil)
+            NVActivityIndicatorPresenter.sharedInstance.stopAnimating()
+        }
+    }
 
 }

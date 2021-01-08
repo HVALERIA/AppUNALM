@@ -34,8 +34,8 @@ class ResumenVController: UIViewController {
         super.viewDidLoad()
         self.navigationController?.isNavigationBarHidden = false
         
-        im_fondo.layer.masksToBounds = true
-        im_fondo.layer.cornerRadius = im_fondo.bounds.width / 2
+        //im_fondo.layer.masksToBounds = true
+        //im_fondo.layer.cornerRadius = im_fondo.bounds.width / 2
         
         im_foto.layer.masksToBounds = true
         im_foto.layer.cornerRadius = im_foto.bounds.width / 2
@@ -44,6 +44,7 @@ class ResumenVController: UIViewController {
         let selectedIndicatorIndex = 16
         let indicatorType = presentingIndicatorTypes[selectedIndicatorIndex]
        
+        self.loadingOpen()
         
         if (lblEstudiante != nil) {
             inicialize()
@@ -88,6 +89,14 @@ class ResumenVController: UIViewController {
              self.navigationController?.pushViewController(controller!, animated: true)
             break
             
+        case .logoff:
+        
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let controller = storyboard.instantiateViewController(withIdentifier: "ViewController") as? ViewController
+             self.navigationController?.pushViewController(controller!, animated: true)
+            
+            break
+            
         default:
             break
         }
@@ -115,6 +124,8 @@ class ResumenVController: UIViewController {
             } else{
                 ShowAlert.ShowAlertError(title: " " ,message: Constants.msg_internet)
             }
+            
+            self.loagingClose()
         
         } catch is NSException {
             ShowAlert.ShowAlertError(title: Constants.title_error ,message: Constants.msg_error)
@@ -142,6 +153,17 @@ class ResumenVController: UIViewController {
             DispatchQueue.main.async() { [weak self] in
                 self?.im_foto.image = UIImage(data: data)
             }
+        }
+    }
+    
+    func loadingOpen(){
+        NVActivityIndicatorPresenter.sharedInstance.startAnimating(activityData)
+    }
+    
+    func loagingClose (){
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3 ) {
+            //self.stopAnimating(nil)
+            NVActivityIndicatorPresenter.sharedInstance.stopAnimating()
         }
     }
 }

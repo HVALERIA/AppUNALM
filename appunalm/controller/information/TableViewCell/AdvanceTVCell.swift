@@ -41,10 +41,12 @@ class AdvanceTVCell: UITableViewCell {
     @IBOutlet weak var imgContrl4: UIImageView!
     @IBOutlet weak var imgContrl5: UIImageView!
     @IBOutlet weak var imgContrl6: UIImageView!
+    @IBOutlet weak var vwHeader: UIView!
     
     
     func setAdvance(cell: AdvanceCell){
         print("Cargando Viewcell")
+        vwHeader.layer.cornerRadius = 8
         
         lblCiclo.text = "Ciclo: \(cell.ciclo)º"
         lblTotal.text = "\(cell.total)"
@@ -64,12 +66,12 @@ class AdvanceTVCell: UITableViewCell {
         lblCredito5.text = cell.credito5
         lblCredito6.text = cell.credito6
         
-        lblEstado1.text = cell.estado1
-        lblEstado2.text = cell.estado2
-        lblEstado3.text = cell.estado3
-        lblEstado4.text = cell.estado4
-        lblEstado5.text = cell.estado5
-        lblEstado.text = cell.estado6
+        lblEstado1.text = cell.estado1!.uppercased()
+        lblEstado2.text = cell.estado2!.uppercased()
+        lblEstado3.text = cell.estado3!.uppercased()
+        lblEstado4.text = cell.estado4!.uppercased()
+        lblEstado5.text = cell.estado5!.uppercased()
+        lblEstado.text = cell.estado6!.uppercased()
         
         if ((cell.curso1?.isEmpty) == nil) { imgContrl1.isHidden = true }
         if ((cell.curso2?.isEmpty) == nil) { imgContrl2.isHidden = true }

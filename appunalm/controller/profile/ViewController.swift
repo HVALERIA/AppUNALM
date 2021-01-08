@@ -50,9 +50,6 @@ class ViewController: UIViewController, GIDSignInDelegate{
         }
     }
     
-    func loading(){
-        NVActivityIndicatorPresenter.sharedInstance.startAnimating(activityData)
-    }
     
     func currentUserName(correo:String){
         if let currentUser = Auth.auth().currentUser {
@@ -65,7 +62,9 @@ class ViewController: UIViewController, GIDSignInDelegate{
                
                 if(authentification != nil){
                     if Funcions.WS_Respuesta(cadena: authentification!.respuesta!) {
+                        //Guardando en memoria
                         Constants.defaults.set(authentification?.usuario?.students?[0].idAlumno!, forKey: Constants.alumno)
+                        Constants.defaults.set(authentification?.usuario?.students?[0].carreraNombre!, forKey: Constants.carrera)
                         Constants.defaults.set(correo, forKey: "correo")
                         
                         let storyboard = UIStoryboard(name: "Main", bundle: nil)
