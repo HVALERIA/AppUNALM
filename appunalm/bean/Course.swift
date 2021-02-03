@@ -43,6 +43,87 @@ extension Course: Decodable {
     }
 }
 
+struct CourseDetailAdv {
+    let id: Int?
+    let codigo: String?
+    let nombre: String?
+    let estado: String?
+    let creditos: Int?
+    let matricula: String?
+    let registrado: Bool?
+    let prerequisito: String?
+    
+    enum CodingKeys: String, CodingKey {
+           case id
+           case codigo = "codigo"
+           case nombre
+           case estado
+           case creditos
+           case matricula = "estadoMatricula"
+           case registrado
+           case prerequisito = "prerequisitos"
+       }
+    
+}
+extension CourseDetailAdv: Decodable {
+    
+    init(from decoder: Decoder) throws {
+        let response = try decoder.container(keyedBy: CodingKeys.self)
+        id = try response.decodeIfPresent(Int.self, forKey: .id)
+        codigo = try response.decodeIfPresent(String.self, forKey: .codigo)
+        nombre = try response.decodeIfPresent(String.self, forKey: .nombre)
+        estado = try response.decodeIfPresent(String.self, forKey: .estado)
+        creditos = try response.decodeIfPresent(Int.self, forKey: .creditos)
+        matricula = try response.decodeIfPresent(String.self, forKey: .matricula)
+        registrado = try response.decodeIfPresent(Bool.self, forKey: .registrado)
+        prerequisito = try response.decodeIfPresent(String.self, forKey: .prerequisito)
+    }
+}
+
+struct CourseSummary {
+    let id: Int?
+    let codigo: String?
+    let nombre: String?
+    let curso: String?
+    let credito: Int?
+    let aula: String?
+    let seccion: String?
+    let facultad: String?
+    let especialidad: String?
+    let docente: String?
+    
+    
+    enum CodingKeys: String, CodingKey {
+           case id
+           case codigo
+           case nombre
+           case curso = "tipoCurso"
+           case credito = "creditos"
+           case aula = "codigoaula"
+           case seccion = "tiposeccion"
+           case facultad = "nombrefacultad"
+           case especialidad = "especialidad"
+           case docente = "docente"
+       }
+    
+}
+extension CourseSummary: Decodable {
+    
+    init(from decoder: Decoder) throws {
+         let response = try decoder.container(keyedBy: CodingKeys.self)
+         id = try response.decodeIfPresent(Int.self, forKey: .id)
+         codigo = try response.decodeIfPresent(String.self, forKey: .codigo)
+         nombre = try response.decodeIfPresent(String.self, forKey: .nombre)
+         curso = try response.decodeIfPresent(String.self, forKey: .curso)
+         credito = try response.decodeIfPresent(Int.self, forKey: .credito)
+         aula = try response.decodeIfPresent(String.self, forKey: .aula)
+         seccion = try response.decodeIfPresent(String.self, forKey: .seccion)
+         facultad = try response.decodeIfPresent(String.self, forKey: .facultad)
+         especialidad = try response.decodeIfPresent(String.self, forKey: .especialidad)
+         docente = try response.decodeIfPresent(String.self, forKey: .docente)
+         
+    }
+}
 struct CourseDetail {
     let estado: String?
     let nombre: String?

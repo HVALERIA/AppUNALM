@@ -15,6 +15,7 @@ public struct Constants {
     public static let alumno = "idAlumno"
     public static let ciclo = "idCiclo"
     public static let carrera = "carrera"
+    public static let curso = "idCurso"
     
     
     public static let title_error:String = "Error"

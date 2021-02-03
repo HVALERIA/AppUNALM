@@ -15,7 +15,6 @@ class GraduateTVCell: UITableViewCell {
     @IBOutlet weak var lblPromedio: UILabel!
     @IBOutlet weak var imDetail: UIImageView!
     
-    
     func setGraduate(cell: GraduateCell){
         Conteiner_vw.layer.cornerRadius = 8
         lblCodigo.text = "Ciclo: \(cell.ciclo)"

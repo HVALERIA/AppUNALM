@@ -65,6 +65,7 @@ class ViewController: UIViewController, GIDSignInDelegate{
                         //Guardando en memoria
                         Constants.defaults.set(authentification?.usuario?.students?[0].idAlumno!, forKey: Constants.alumno)
                         Constants.defaults.set(authentification?.usuario?.students?[0].carreraNombre!, forKey: Constants.carrera)
+                        //Constants.defaults.set(authentification?.usuario?.students?[0].ciclo! , forKey: Constants.ciclo)
                         Constants.defaults.set(correo, forKey: "correo")
                         
                         let storyboard = UIStoryboard(name: "Main", bundle: nil)

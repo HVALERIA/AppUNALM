@@ -10,8 +10,7 @@ import UIKit
 import NVActivityIndicatorView
 
 class AdvanceVController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
-    
-
+  
     @IBOutlet weak var lblCarrera: UILabel!
     @IBOutlet weak var vwHeader: UIView!
     @IBOutlet weak var tableView: UITableView!
@@ -50,7 +49,7 @@ class AdvanceVController: UIViewController, UITableViewDelegate, UITableViewData
         // Do any additional setup after loading the view.
     }
     
-    func limpiar(){
+    func limpiar() {
         self.lblCarrera.text = "Carrera: "
         self.lblEstudio.text = "00/00"
         self.lblFacultad.text = "00/00"
@@ -69,10 +68,9 @@ class AdvanceVController: UIViewController, UITableViewDelegate, UITableViewData
                 print("Code: \(id)")
                 network.curricula(byId: id){ (credit) in
                    
-                    if(credit != nil){
+                    if (credit != nil) {
                         
                         let malla = credit?.malla?.ciclo ?? []
-                        
                         
                         for f in malla {
                             
@@ -81,6 +79,7 @@ class AdvanceVController: UIViewController, UITableViewDelegate, UITableViewData
                             self.items.append(row)
                             
                         }
+                        
                         self.tableView.reloadData()
                         
                     }
@@ -115,7 +114,7 @@ class AdvanceVController: UIViewController, UITableViewDelegate, UITableViewData
         
         let row = items[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "AdvanceTVCell", for: indexPath) as! AdvanceTVCell
-        
+        cell.navigationController = self.navigationController
         cell.setAdvance(cell: row)
         return cell
     }

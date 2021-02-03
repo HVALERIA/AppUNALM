@@ -9,6 +9,7 @@
 struct Student {
     let codigo: String?
     let tipo: String?
+    let ciclo: String?
     let yearCicloAcademico: Int?
     let situacion: String?
     let carreraId: Int?
@@ -20,6 +21,7 @@ struct Student {
     enum CodingKeys: String, CodingKey {
           case codigo
           case tipo
+          case ciclo = "descripcion"
           case yearCicloAcademico
           case situacion
           case carreraId
@@ -35,6 +37,7 @@ extension Student: Decodable{
            let response = try decoder.container(keyedBy: CodingKeys.self)
            codigo = try response.decodeIfPresent(String.self, forKey: .codigo)
            tipo = try response.decodeIfPresent(String.self, forKey: .tipo)
+           ciclo = try response.decodeIfPresent(String.self, forKey: .ciclo)
            yearCicloAcademico = try response.decodeIfPresent(Int.self, forKey: .yearCicloAcademico)
            situacion = try response.decodeIfPresent(String.self, forKey: .situacion)
            carreraId = try response.decodeIfPresent(Int.self, forKey: .carreraId)
@@ -59,7 +62,7 @@ struct StudentSummary /*: Codable */ {
     enum CodingKeys: String, CodingKey {
           case codigo
           case tipo
-          case descripcion
+          case descripcion = "descripcion"
           case nombres
           case email
           case foto

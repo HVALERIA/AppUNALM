@@ -57,6 +57,7 @@ class InformationVController: UIViewController {
         self.Finance_vw.addGestureRecognizer(tgFinance)
         
     }
+    
     @IBAction func didMenu(_ sender: Any) {
         guard let menuViewController = storyboard?.instantiateViewController(identifier: "MenuTVController") as? MenuTVController else {return}
                menuViewController.didTapMenuType = { menuType in
@@ -110,7 +111,11 @@ class InformationVController: UIViewController {
         
     }
     @objc func handleTapCourses(sender: UITapGestureRecognizer){
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "CourseVController") as? CourseVController
+        self.navigationController?.pushViewController(controller!, animated: true)
     }
+    
     @objc func handleTapExams(sender: UITapGestureRecognizer){
     }
     @objc func handleTapSchedule(sender: UITapGestureRecognizer){

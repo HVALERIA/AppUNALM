@@ -43,6 +43,25 @@ class CourseCell {
     }
 }
 
+class CourseSummaryCell{
+    var id:Int
+    var curso:String
+    var docente:String
+    var credito:String
+    var ciclo:String
+    var aula:String
+    var clave: String
+    init(id:Int, curso: String, clave: String, docente: String, credito: String, ciclo: String, aula: String) {
+        self.id = id
+        self.curso = curso
+        self.clave = "Clave del curso: \(clave)"
+        self.docente = docente
+        self.credito = "Creditos : \(credito)"
+        self.ciclo = "Ciclo : \(ciclo)"
+        self.aula = "Aula : \(aula)"
+    }
+}
+
 class AdvanceCell {
     var ciclo: String
     var total: String
@@ -129,4 +148,28 @@ class AdvanceCell {
         print("Fin cell")
     }
     
+}
+
+class AdvanceDetailCell {
+    var breve: String
+    var curso: String
+    var codigo: String
+    var creditoCurso: String
+    var requisito: String
+    var creditoRequisito: String
+    var aula: String
+    var fecha: String
+    var estado: String
+    
+    init(breve: String, curso: String, codigo: String, creCurso: String, requisito: String, creRequisito: String, aula: String, fecha: String, estado: String){
+        self.breve = breve
+        self.curso = curso
+        self.codigo = codigo
+        self.creditoCurso = creCurso
+        self.requisito = requisito
+        self.creditoRequisito = creRequisito
+        self.aula = aula
+        self.fecha = fecha
+        self.estado = estado
+    }
 }

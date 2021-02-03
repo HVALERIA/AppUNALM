@@ -118,6 +118,10 @@ class ResumenVController: UIViewController {
                         self.lblEspecialidad.text = studensummary?.carrera
                         self.lblSituacion.text = studensummary?.situacion
                         let url = URL(string: studensummary!.foto!)!
+                        
+                        //Guardando variable de ciclo
+                        Constants.defaults.set(studensummary!.descripcion , forKey: Constants.ciclo)
+                        
                         self.downloadImage(from: url)
                     }
                 }

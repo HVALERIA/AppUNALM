@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		80FCB0932789E5E2F8BA8114 /* Pods_appunalm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED83A7B9B74A06CBB2947191 /* Pods_appunalm.framework */; };
 		8D036C6B24F98E8A003E4AD2 /* MenuTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D036C6A24F98E8A003E4AD2 /* MenuTVController.swift */; };
 		8D036C6F24F99B8A003E4AD2 /* SliderInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D036C6E24F99B8A003E4AD2 /* SliderInTransition.swift */; };
 		8D036C7124F99E95003E4AD2 /* ProfileVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D036C7024F99E95003E4AD2 /* ProfileVController.swift */; };
@@ -46,12 +45,18 @@
 		8DC3FB5424F82AB900FDFB57 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3FB5324F82AB900FDFB57 /* Student.swift */; };
 		8DD9331D24F89CE7001FBF56 /* ResumenVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9331C24F89CE7001FBF56 /* ResumenVController.swift */; };
 		8DD9331F24F8B35B001FBF56 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9331E24F8B35B001FBF56 /* BaseViewController.swift */; };
+		8DD9607A25C5BDDA005D2BDB /* CourseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9607925C5BDDA005D2BDB /* CourseNetwork.swift */; };
 		8DE44A8725800E2800E86AE6 /* ShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE44A8625800E2800E86AE6 /* ShowAlert.swift */; };
 		8DE44A8F2580103800E86AE6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE44A8E2580103800E86AE6 /* Constants.swift */; };
+		8DF8E5E625B6A47D006374B1 /* AdvanceDetailsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF8E5E525B6A47D006374B1 /* AdvanceDetailsTVCell.swift */; };
+		8DFB7C6525C4D42400B165CD /* CourseVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFB7C6425C4D42400B165CD /* CourseVController.swift */; };
+		8DFB7C6A25C5297C00B165CD /* CourseCabTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFB7C6925C5297B00B165CD /* CourseCabTVCell.swift */; };
+		8DFB7C7125C5972300B165CD /* ExamsVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFB7C7025C5972300B165CD /* ExamsVController.swift */; };
+		8DFB7C7525C5977600B165CD /* DetailCourseVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFB7C7425C5977600B165CD /* DetailCourseVController.swift */; };
+		8DFB7C7825C59DE200B165CD /* DetailCourseTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFB7C7725C59DE200B165CD /* DetailCourseTVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3203F38BA6B7C106C7D21BE3 /* Pods-appunalm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appunalm.release.xcconfig"; path = "Target Support Files/Pods-appunalm/Pods-appunalm.release.xcconfig"; sourceTree = "<group>"; };
 		8D036C6A24F98E8A003E4AD2 /* MenuTVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTVController.swift; sourceTree = "<group>"; };
 		8D036C6E24F99B8A003E4AD2 /* SliderInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderInTransition.swift; sourceTree = "<group>"; };
 		8D036C7024F99E95003E4AD2 /* ProfileVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVController.swift; sourceTree = "<group>"; };
@@ -94,10 +99,15 @@
 		8DC3FB5324F82AB900FDFB57 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		8DD9331C24F89CE7001FBF56 /* ResumenVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumenVController.swift; sourceTree = "<group>"; };
 		8DD9331E24F8B35B001FBF56 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		8DD9607925C5BDDA005D2BDB /* CourseNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseNetwork.swift; sourceTree = "<group>"; };
 		8DE44A8625800E2800E86AE6 /* ShowAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlert.swift; sourceTree = "<group>"; };
 		8DE44A8E2580103800E86AE6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		CA84FB43205669B83BCC964C /* Pods-appunalm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appunalm.debug.xcconfig"; path = "Target Support Files/Pods-appunalm/Pods-appunalm.debug.xcconfig"; sourceTree = "<group>"; };
-		ED83A7B9B74A06CBB2947191 /* Pods_appunalm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appunalm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF8E5E525B6A47D006374B1 /* AdvanceDetailsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceDetailsTVCell.swift; sourceTree = "<group>"; };
+		8DFB7C6425C4D42400B165CD /* CourseVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseVController.swift; sourceTree = "<group>"; };
+		8DFB7C6925C5297B00B165CD /* CourseCabTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCabTVCell.swift; sourceTree = "<group>"; };
+		8DFB7C7025C5972300B165CD /* ExamsVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamsVController.swift; sourceTree = "<group>"; };
+		8DFB7C7425C5977600B165CD /* DetailCourseVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCourseVController.swift; sourceTree = "<group>"; };
+		8DFB7C7725C59DE200B165CD /* DetailCourseTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCourseTVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,27 +115,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80FCB0932789E5E2F8BA8114 /* Pods_appunalm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4337BCB382DF31AA4E946159 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				ED83A7B9B74A06CBB2947191 /* Pods_appunalm.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		8D0A223024FC42FB00F8423E /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
 				8DACEB0724FB420200748367 /* GraduateTVCell.swift */,
 				8D0A222724FC0F0300F8423E /* CourseTVCell.swift */,
 				8D0A222E24FC3B3D00F8423E /* AdvanceTVCell.swift */,
+				8DF8E5E525B6A47D006374B1 /* AdvanceDetailsTVCell.swift */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -145,7 +147,6 @@
 				8D31523224F61C1C002AA3D7 /* appunalm */,
 				8D31523124F61C1C002AA3D7 /* Products */,
 				DFC026C314BD440ED809FDDB /* Pods */,
-				4337BCB382DF31AA4E946159 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -223,6 +224,8 @@
 		8DC3FB4824F81A4100FDFB57 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				8DFB7C6F25C5970100B165CD /* exams */,
+				8DFB7C6125C4D3D900B165CD /* course */,
 				8DB62C0A24FACD24000D38CE /* information */,
 				8DB62C0924FAC9C4000D38CE /* profile */,
 				8D1254A524F95E7E00B2B28C /* menu */,
@@ -237,6 +240,7 @@
 				8DC3FB4C24F822DC00FDFB57 /* LoginNetwork.swift */,
 				8DB8536724F8DE8F0069AC10 /* ProfileNetwork.swift */,
 				8DB62C1024FAD61A000D38CE /* InformationNetwork.swift */,
+				8DD9607925C5BDDA005D2BDB /* CourseNetwork.swift */,
 			);
 			path = service;
 			sourceTree = "<group>";
@@ -258,11 +262,36 @@
 			path = bean;
 			sourceTree = "<group>";
 		};
+		8DFB7C6125C4D3D900B165CD /* course */ = {
+			isa = PBXGroup;
+			children = (
+				8DFB7C6825C5294F00B165CD /* TableViewCell */,
+				8DFB7C6425C4D42400B165CD /* CourseVController.swift */,
+				8DFB7C7425C5977600B165CD /* DetailCourseVController.swift */,
+			);
+			path = course;
+			sourceTree = "<group>";
+		};
+		8DFB7C6825C5294F00B165CD /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8DFB7C6925C5297B00B165CD /* CourseCabTVCell.swift */,
+				8DFB7C7725C59DE200B165CD /* DetailCourseTVCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		8DFB7C6F25C5970100B165CD /* exams */ = {
+			isa = PBXGroup;
+			children = (
+				8DFB7C7025C5972300B165CD /* ExamsVController.swift */,
+			);
+			path = exams;
+			sourceTree = "<group>";
+		};
 		DFC026C314BD440ED809FDDB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CA84FB43205669B83BCC964C /* Pods-appunalm.debug.xcconfig */,
-				3203F38BA6B7C106C7D21BE3 /* Pods-appunalm.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -274,12 +303,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D31524724F61C1E002AA3D7 /* Build configuration list for PBXNativeTarget "appunalm" */;
 			buildPhases = (
-				6A9D8AD8649A6B5DCA4AE9A8 /* [CP] Check Pods Manifest.lock */,
 				8D31522C24F61C1C002AA3D7 /* Sources */,
 				8D31522D24F61C1C002AA3D7 /* Frameworks */,
 				8D31522E24F61C1C002AA3D7 /* Resources */,
-				6F9F43749DD822423FCB464C /* [CP] Embed Pods Frameworks */,
-				1B7A1B0807FA48176A0DDA36 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,65 +365,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		1B7A1B0807FA48176A0DDA36 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-appunalm/Pods-appunalm-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-appunalm/Pods-appunalm-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appunalm/Pods-appunalm-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6A9D8AD8649A6B5DCA4AE9A8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-appunalm-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6F9F43749DD822423FCB464C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-appunalm/Pods-appunalm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-appunalm/Pods-appunalm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appunalm/Pods-appunalm-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		8D31522C24F61C1C002AA3D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -412,13 +379,18 @@
 				8DB8536624F8D0C70069AC10 /* NSNumber.swift in Sources */,
 				8D31523824F61C1C002AA3D7 /* ViewController.swift in Sources */,
 				8D0A222A24FC176000F8423E /* General.swift in Sources */,
+				8DFB7C7125C5972300B165CD /* ExamsVController.swift in Sources */,
 				8DACEB0A24FB43D900748367 /* Cell.swift in Sources */,
 				8DD9331F24F8B35B001FBF56 /* BaseViewController.swift in Sources */,
 				8D31523424F61C1C002AA3D7 /* AppDelegate.swift in Sources */,
 				8D31523624F61C1C002AA3D7 /* SceneDelegate.swift in Sources */,
 				8D31523E24F61C1C002AA3D7 /* appunalm.xcdatamodeld in Sources */,
+				8DFB7C7825C59DE200B165CD /* DetailCourseTVCell.swift in Sources */,
+				8DFB7C6A25C5297C00B165CD /* CourseCabTVCell.swift in Sources */,
+				8DD9607A25C5BDDA005D2BDB /* CourseNetwork.swift in Sources */,
 				8DB8536324F8CFE20069AC10 /* OptionSegment.swift in Sources */,
 				8D036C6F24F99B8A003E4AD2 /* SliderInTransition.swift in Sources */,
+				8DF8E5E625B6A47D006374B1 /* AdvanceDetailsTVCell.swift in Sources */,
 				8DC3FB5424F82AB900FDFB57 /* Student.swift in Sources */,
 				8DA9428B24FB8326000CE247 /* CourseViewController.swift in Sources */,
 				8DB62C0F24FACD93000D38CE /* InformationVController.swift in Sources */,
@@ -432,7 +404,9 @@
 				8DB62C1524FADACA000D38CE /* HistoryVController.swift in Sources */,
 				8DA9428D24FB892B000CE247 /* AdvanceVController.swift in Sources */,
 				8DC3FB5024F82A6300FDFB57 /* Authentification.swift in Sources */,
+				8DFB7C6525C4D42400B165CD /* CourseVController.swift in Sources */,
 				8D0A222C24FC185B00F8423E /* Curriculum.swift in Sources */,
+				8DFB7C7525C5977600B165CD /* DetailCourseVController.swift in Sources */,
 				8DC3FB4D24F822DC00FDFB57 /* LoginNetwork.swift in Sources */,
 				8D0A222824FC0F0300F8423E /* CourseTVCell.swift in Sources */,
 				8DB62C1724FAED02000D38CE /* Graduate.swift in Sources */,
@@ -517,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -574,7 +548,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -588,7 +562,6 @@
 		};
 		8D31524824F61C1E002AA3D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA84FB43205669B83BCC964C /* Pods-appunalm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CLANG_ENABLE_MODULES = YES;
@@ -609,7 +582,6 @@
 		};
 		8D31524924F61C1E002AA3D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3203F38BA6B7C106C7D21BE3 /* Pods-appunalm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CLANG_ENABLE_MODULES = YES;

@@ -96,6 +96,24 @@ class InformationNetwork: NSObject {
                }
            }
        }
+    
+    
+    func advanceDetail(byId IdAlumno: String,byId IdCurso: String, completion: @escaping (CourseDetailAdv?) -> Void) {
+        let url = String(format: "\(ApiClient.domain)alumno/%@/curso/%@", IdAlumno, IdCurso)
+        print(url)
+        
+        Alamofire.request(url).response { response in
+            guard let data = response.data else { return }
+            do {
+                let decoder = JSONDecoder()
+                let response = try decoder.decode(CourseDetailAdv.self, from: data)
+                completion(response)
+            } catch let error {
+                print(error)
+                completion(nil)
+            }
+        }
+    }
        
     
 }

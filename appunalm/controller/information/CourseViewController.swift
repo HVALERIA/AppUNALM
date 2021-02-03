@@ -53,10 +53,7 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
                 var estado = "Desaprobado"
                 network.courseLista(byId: alumno, byId: ciclo){ (graduate) in
                     if (graduate != nil) {
-                       
-                        /*
-                        self.lblCarrera.text = "Carrera: \(Funcions.Separator(cadena: graduate!.carrera!, valor: ":")[2])"
-                        */
+                
                         
                         self.lblCiclo.text = "Ciclo: \(graduate!.nroCiclo!)º"
                         let prom = String(format: "%.2f", graduate?.ciclo! as! CVarArg)

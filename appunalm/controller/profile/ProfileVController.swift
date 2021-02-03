@@ -65,7 +65,8 @@ class ProfileVController: UIViewController {
                       self.txtEspecialidad.text = studensummary?.carrera
                       self.txtAdmision.text = studensummary?.tipo
                       self.txtCorreo.text = studensummary?.email
-                      self.txtPrograma.text = studensummary?.descripcion
+                      self.txtPrograma.text = studensummary?.carrera
+                      self.txtCurriculum.text = studensummary?.descripcion
                       self.txtSituacion.text = studensummary?.situacion
                       let url = URL(string: studensummary!.foto!)!
                       self.downloadImage(from: url)
